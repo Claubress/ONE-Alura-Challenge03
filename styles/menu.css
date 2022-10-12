@@ -1,0 +1,52 @@
+.menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.menu__nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: none;
+}
+
+.menu__list__item__contato {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+
+    .menu__list__item__contato {
+        font-weight: 700;
+        font-size: 1rem;
+    }        
+    
+}
+
+@media (min-width: 769px) {
+
+    .menu__list__item__contato {
+        display: none;
+    }
+
+    .menu__list {
+        display: flex;
+        gap: 2rem;
+        font-weight: 500;
+    }
+    
+
+    .menu__list__item--bold {
+        font-weight: 700;
+    }
+}

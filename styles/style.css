@@ -9,22 +9,24 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-text: #464646;
 }
 
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
     line-height: 1;
+    color: var(--cor-de-text)
 }
-ol, ul,li {
-    list-style: none;
-}
+
 a{
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--cor-de-text);
+}
+
+li {
+	list-style: none;
 }
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
@@ -41,49 +43,65 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.25rem;
 
 }
 
 /*Sección Title*/
 
-section.title{
-
+.title {
+    display: none;
 }
 
 /*Sección About*/
 
-section.about{
+.about {
+    display: none;
 
+}
+
+/*Sección Skills*/
+
+.skills {
+    display: none;
+    
 }
 
 /*Sección Hobbies*/
 
-section.hobbies{
+.hobbies {
+    display: none;
     
 }
 
 /* Experiencia Académica*/
 
-section.academic{
+.academic {
+    display: none;
 
 }
 
 /* experiencia*/
 
-section.experience{
+.experience {
+    display: none;
 
 }
 
 /*Contacto*/
 
-section.formcontato{
+.formcontato {
+    display: none;
 
 }
 
 /*footeer*/
 
-section.footer{
+.footer {
+    display: none;
    
 }
 
