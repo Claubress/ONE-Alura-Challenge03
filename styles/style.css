@@ -64,8 +64,8 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección About*/
 
 .about {
-    display: none;
-
+    padding: 2.1563rem 1rem 1rem 1rem;
+    background-color: var(--col-section-2);
 }
 
 /*Sección Skills*/
@@ -127,6 +127,12 @@ Utiliza las referencias de los breakpoints @media abajo */
 .title {
     padding: 3.6563rem 2rem 2rem 2rem;
 }
+
+/*Sobre mi*/
+.about {
+    padding: 3.6563rem 2rem 2rem 2rem;
+}
+
 /*Skills*/
 
 /*Hobbies*/
@@ -147,10 +153,13 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Titulo*/
 .title {
-    padding: 4.125rem 9.5rem 4.125rem 9.5rem;
+    padding: 4.125rem 9.5rem 2rem 9.5rem;
 }
-/*Sección sobre mi*/
 
+/*Sección sobre mi*/
+.about {
+    padding: 4.125rem 33.56rem 2rem 9.5rem;
+}
 /*Skills*/
 
 /*Hobbies*/
