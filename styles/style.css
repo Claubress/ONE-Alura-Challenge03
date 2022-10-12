@@ -7,22 +7,25 @@ coloque nas sessões indicadas*/
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-   --cor-de-text: #464646;
+   --col-bg-1: #F5F5F5;
+   --col-section-1: #E5E5E5;
+   --col-section-2: #EAF2FD;
+   --col-link: #000;
+
+   --col-text: #464646;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--col-bg-1) ;
     font-family: 'Raleway';
     line-height: 1;
-    color: var(--cor-de-text)
+    color: var(--col-text)
 }
 
 a{
     text-decoration: none;
-    color: var(--cor-de-text);
+    color: var(--col-text);
 }
 
 li {
@@ -45,15 +48,17 @@ https://en.bem.info/methodology/quick-start/*/
 
 .menu {
     display: flex;
-    justify-content: space-around;
-    margin-top: 1.25rem;
-
+    justify-content: space-between;
+    padding: 1.1563rem 1rem;
+    background-color: var(--col-section-1);
 }
 
 /*Sección Title*/
 
 .title {
-    display: none;
+    display: flex;
+    padding: 2.1563rem 1rem 1rem 1rem;
+    background-color: var(--col-section-1);
 }
 
 /*Sección About*/
@@ -113,9 +118,15 @@ Utiliza las referencias de los breakpoints @media abajo */
 @media (min-width: 768px) {
 
 /* Menú */
+.menu {
+    padding: 1.1563rem 2rem;
+}
+
 
 /*title*/
-
+.title {
+    padding: 3.6563rem 2rem 2rem 2rem;
+}
 /*Skills*/
 
 /*Hobbies*/
@@ -127,12 +138,17 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (min-width: 1024px) {
 
 /*Menu*/
+.menu {
+    padding: 2.1563rem 9.5rem;
+}
 
 /*Titulo*/
-
+.title {
+    padding: 4.125rem 9.5rem 4.125rem 9.5rem;
+}
 /*Sección sobre mi*/
 
 /*Skills*/
