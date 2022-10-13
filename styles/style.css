@@ -18,14 +18,14 @@ coloque nas sessões indicadas*/
 body {
     box-sizing: border-box;
     background-color: var(--col-bg-1) ;
+    color: var(--col-text);
     font-family: 'Raleway';
     line-height: 1;
-    color: var(--col-text)
 }
 
 a{
-    text-decoration: none;
     color: var(--col-text);
+    text-decoration: none;
 }
 
 li {
@@ -47,39 +47,39 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 .menu {
+    background-color: var(--col-section-1);
     display: flex;
     justify-content: space-between;
     padding: 1.1563rem 1rem;
-    background-color: var(--col-section-1);
 }
 
 /*Sección Title*/
 
 .title {
+    background-color: var(--col-section-1);
     display: flex;
     padding: 2.1563rem 1rem 1rem 1rem;
-    background-color: var(--col-section-1);
 }
 
 /*Sección About*/
 
 .about {
-    padding: 2.1563rem 1rem 1rem 1rem;
     background-color: var(--col-section-2);
+    padding: 2.1563rem 1rem 1rem 1rem;
 }
 
 /*Sección Skills*/
 
 .skills {
-    display: none;
-    
+    background-color: var(--col-section-1);    
+    padding: 1rem;
 }
 
 /*Sección Hobbies*/
 
 .hobbies {
-    display: none;
-    
+    background-color: var(--col-section-1);    
+    padding: 1rem;    
 }
 
 /* Experiencia Académica*/
@@ -134,8 +134,14 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Skills*/
+.skills {
+    padding: 2rem;
+}
 
 /*Hobbies*/
+.hobbies {
+    padding: 2rem;
+}
 
 /*Formación Académica*/
 
@@ -161,8 +167,14 @@ Utiliza las referencias de los breakpoints @media abajo */
     padding: 4.125rem 33.56rem 2rem 9.5rem;
 }
 /*Skills*/
+.skills {
+    padding: 4.125rem 9.5rem 2rem 9.5rem;
+}
 
 /*Hobbies*/
+.hobbies {
+    padding: 4.125rem 9.5rem 2rem 9.5rem;
+}
  
 /*Formación Académica*/
 
