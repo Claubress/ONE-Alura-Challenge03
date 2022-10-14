@@ -85,8 +85,8 @@ https://en.bem.info/methodology/quick-start/*/
 /* Experiencia Académica*/
 
 .academic {
-    display: none;
-
+    background-color: var(--col-section-2);    
+    padding: 2rem;    
 }
 
 /* experiencia*/

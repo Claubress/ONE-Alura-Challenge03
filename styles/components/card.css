@@ -1,0 +1,30 @@
+.component__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.component__card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 5.5rem;
+    justify-content: end;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 39%;
+}
+
+@media (min-width: 768px) {
+    .component__card {
+        width: 28%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .component__card {
+        width: 13%;
+    }
+}
