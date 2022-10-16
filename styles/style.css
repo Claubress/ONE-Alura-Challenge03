@@ -13,6 +13,7 @@ coloque nas sessões indicadas*/
    --col-link: #000;
 
    --col-text: #464646;
+   --col-btn: #2A7AE4;
 }
 
 body {
@@ -92,8 +93,7 @@ https://en.bem.info/methodology/quick-start/*/
 /* experiencia*/
 
 .experience {
-    display: none;
-
+    padding: 2rem;
 }
 
 /*Contacto*/
@@ -179,6 +179,10 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Formación Académica*/
 
 /*Experiencia Profesional*/
+.experience {
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+}
 
  /*Contacto*/
 

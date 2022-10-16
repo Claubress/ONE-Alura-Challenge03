@@ -4,7 +4,7 @@
     line-height: 1.625rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     .component__title {
         font-size: 2rem;
         line-height: 2.375rem;
