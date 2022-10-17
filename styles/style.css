@@ -8,17 +8,16 @@ coloque nas sessões indicadas*/
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --col-bg-1: #F5F5F5;
+   --col-btn: #2A7AE4;
+   --col-link: #000;
    --col-section-1: #E5E5E5;
    --col-section-2: #EAF2FD;
-   --col-link: #000;
-
    --col-text: #464646;
-   --col-btn: #2A7AE4;
 }
 
 body {
-    box-sizing: border-box;
     background-color: var(--col-bg-1) ;
+    box-sizing: border-box;
     color: var(--col-text);
     font-family: 'Raleway';
     line-height: 1;
@@ -33,20 +32,7 @@ li {
 	list-style: none;
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
 /*Sección Menu*/
-
 .menu {
     background-color: var(--col-section-1);
     display: flex;
@@ -55,7 +41,6 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 /*Sección Title*/
-
 .title {
     background-color: var(--col-section-1);
     display: flex;
@@ -63,129 +48,124 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 /*Sección About*/
-
 .about {
     background-color: var(--col-section-2);
     padding: 2.1563rem 1rem 1rem 1rem;
 }
 
 /*Sección Skills*/
-
 .skills {
     background-color: var(--col-section-1);    
     padding: 1rem;
 }
 
 /*Sección Hobbies*/
-
 .hobbies {
     background-color: var(--col-section-1);    
     padding: 1rem;    
 }
 
-/* Experiencia Académica*/
-
+/*Sección Experiencia Académica*/
 .academic {
     background-color: var(--col-section-2);    
     padding: 2rem;    
 }
 
-/* experiencia*/
-
+/*Sección Experiencia Profesional*/
 .experience {
+    background-color: var(--col-section-1);    
     padding: 2rem;
 }
 
-/*Contacto*/
-
+/*Sección Contacto*/
 .formcontato {
-    display: none;
-
+    background-color: var(--col-section-2);    
+    padding: 2rem;
 }
 
-/*footeer*/
-
+/*Sección Footeer*/
 .footer {
-    display: none;
-   
+    background-color: var(--col-section-1);    
+    padding: 2rem;
+    text-align: center;
 }
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
 @media (min-width: 768px) {
 
-/* Menú */
-.menu {
-    padding: 1.1563rem 2rem;
+    /*Sección Menú */
+    .menu {
+        padding: 1.1563rem 2rem;
+    }
+
+
+    /*Sección Title*/
+    .title {
+        padding: 3.6563rem 2rem 2rem 2rem;
+    }
+
+    /*Sección Sobre mi*/
+    .about {
+        padding: 3.6563rem 2rem 2rem 2rem;
+    }
+
+    /*Sección Skills*/
+    .skills {
+        padding: 2rem;
+    }
+
+    /*Sección Hobbies*/
+    .hobbies {
+        padding: 2rem;
+    }
+
+    /*Sección Formación Académica*/
+
+    /*Sección Experiencia Profesional*/
+
 }
 
-
-/*title*/
-.title {
-    padding: 3.6563rem 2rem 2rem 2rem;
-}
-
-/*Sobre mi*/
-.about {
-    padding: 3.6563rem 2rem 2rem 2rem;
-}
-
-/*Skills*/
-.skills {
-    padding: 2rem;
-}
-
-/*Hobbies*/
-.hobbies {
-    padding: 2rem;
-}
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
-}
-
-/*Mobile*/
+/*Desktop*/
 @media (min-width: 1024px) {
 
-/*Menu*/
-.menu {
-    padding: 2.1563rem 9.5rem;
-}
+    /*Sección Menu*/
+    .menu {
+        padding: 2.1563rem 9.5rem;
+    }
 
-/*Titulo*/
-.title {
-    padding: 4.125rem 9.5rem 2rem 9.5rem;
-}
+    /*Sección Title*/
+    .title {
+        padding: 4.125rem 9.5rem 2rem 9.5rem;
+    }
 
-/*Sección sobre mi*/
-.about {
-    padding: 4.125rem 33.56rem 2rem 9.5rem;
-}
-/*Skills*/
-.skills {
-    padding: 4.125rem 9.5rem 2rem 9.5rem;
-}
+    /*Sección Sobre mi*/
+    .about {
+        padding: 4.125rem 33.56rem 2rem 9.5rem;
+    }
 
-/*Hobbies*/
-.hobbies {
-    padding: 4.125rem 9.5rem 2rem 9.5rem;
-}
- 
-/*Formación Académica*/
+    /*Sección Skills*/
+    .skills {
+        padding: 4.125rem 9.5rem 2rem 9.5rem;
+    }
 
-/*Experiencia Profesional*/
-.experience {
-    padding-left: 9.5rem;
-    padding-right: 9.5rem;
-}
+    /*Sección Hobbies*/
+    .hobbies {
+        padding: 4.125rem 9.5rem 2rem 9.5rem;
+    }
+    
+    /*Sección Formación Académica*/
 
- /*Contacto*/
+    /*Sección Experiencia Profesional*/
+    .experience {
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
+    }
 
-/*Footer*/
+    /*Sección Contacto*/
+    .formcontato {
+        padding: 8.094rem 9.5rem 4rem 9.5rem;
+    }
 
+    /*Sección Footer*/
 }

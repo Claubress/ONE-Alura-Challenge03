@@ -13,10 +13,7 @@
 
 
 .academic__courses__box {
-    /* display: flex;
-    flex-direction: column; */
     height: 10.56rem;
-    /* gap: 0.5rem; */
     width: 18.81rem;
 }
 
@@ -28,13 +25,13 @@
 }
 
 .academic__courses__item__img {
-    text-align: center;
     background-color: white;      
+    text-align: center;
 }
 
 .academic__courses__item__img img {
-    padding-top: 1.875rem;
     padding-bottom: 1.875rem;
+    padding-top: 1.875rem;
     width: 28%;
 }
 
@@ -53,9 +50,9 @@
 
 @media (min-width: 1024px) {
     .academic__courses__box {
-        width: 23rem;
         height: 21.69rem;
         gap: 1rem;
+        width: 23rem;
     }
 
     .academic__courses__item__img img {
