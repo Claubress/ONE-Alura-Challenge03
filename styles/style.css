@@ -13,6 +13,7 @@ coloque nas sessões indicadas*/
    --col-section-1: #E5E5E5;
    --col-section-2: #EAF2FD;
    --col-text: #464646;
+   --col-warning: #df2525;
 }
 
 body {
@@ -50,7 +51,7 @@ li {
 /*Sección About*/
 .about {
     background-color: var(--col-section-2);
-    padding: 2.1563rem 1rem 1rem 1rem;
+    padding: 1rem;
 }
 
 /*Sección Skills*/
@@ -107,7 +108,7 @@ li {
 
     /*Sección Sobre mi*/
     .about {
-        padding: 3.6563rem 2rem 2rem 2rem;
+        padding: 2rem;
     }
 
     /*Sección Skills*/
@@ -141,7 +142,7 @@ li {
 
     /*Sección Sobre mi*/
     .about {
-        padding: 4.125rem 33.56rem 2rem 9.5rem;
+        padding: 4rem 33.56rem 4rem 9.5rem;
     }
 
     /*Sección Skills*/

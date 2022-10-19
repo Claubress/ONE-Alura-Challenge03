@@ -9,7 +9,22 @@
     padding-top: 1rem;
 }
 
-@media (min-width: 1024px) {
+.about__paragraph:nth-last-child(2) {
+    padding-bottom: 1rem;
+}
+
+.about__botao {
+    background-color: var(--col-btn);
+    border: 1px solid var(--col-btn);
+    color: white;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+@media (min-width: 1224px) {
 
     .about__title {
     }

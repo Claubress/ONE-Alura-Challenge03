@@ -100,7 +100,41 @@ formcontato__contacto {
     padding: 0.75rem 1rem;
 }
 
-@media (min-width: 1024px) {
+  
+.formcontato__input__container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+/************************************************/
+
+.formcontato__input__container--invalid .formcontato__input {
+    border: 1px solid var(--col-warning);
+    /* border-radius: 7px; */
+}
+
+.formcontato__input__container--invalid .formcontato__textarea {
+    border: 1px solid var(--col-warning);
+    /* border-radius: 7px; */
+}
+
+.formcontato__input__container--invalid .formcontato__label {
+    color: var(--col-warning);
+}
+  
+.formcontato__message__error {
+    display: none;
+}
+  
+.formcontato__input__container--invalid .formcontato__message__error {
+    color: var(--col-warning);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+  
+   
+  
+@media (min-width: 1224px) {
     .formcontato__contacto {
         display: flex;
         gap: 1rem;
