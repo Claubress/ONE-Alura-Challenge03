@@ -1,4 +1,4 @@
-![Challenge 1 - ONE + Alura Latan](imagesRM/banner.png)
+![Challenge 1 - ONE + Alura Latan](assets/banner.png)
 <p align="center"> 
    <img align="left" src="https://img.shields.io/badge/status-Liberada-green">
    <img src="https://img.shields.io/badge/versión-v1.0.0-green">
