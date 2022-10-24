@@ -1,9 +1,9 @@
 .component__cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1rem;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .component__card {
@@ -14,17 +14,17 @@
     justify-content: end;
     margin-bottom: 1rem;
     padding: 1rem;
-    width: 39%;
+    width: 38%;
 }
 
 @media (min-width: 768px) {
     .component__card {
-        width: 28%;
+        width: 27%;
     }
 }
 
 @media (min-width: 1024px) {
     .component__card {
-        width: 13%;
+        width: 12%;
     }
 }

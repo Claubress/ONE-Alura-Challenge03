@@ -45,7 +45,7 @@ li {
 .title {
     background-color: var(--col-section-1);
     display: flex;
-    padding: 2.1563rem 1rem 1rem 1rem;
+    padding: 1rem;
 }
 
 /*Sección About*/
@@ -103,7 +103,7 @@ li {
 
     /*Sección Title*/
     .title {
-        padding: 3.6563rem 2rem 2rem 2rem;
+        padding: 2.5rem 2rem 2rem 2rem;
     }
 
     /*Sección Sobre mi*/
@@ -128,7 +128,7 @@ li {
 }
 
 /*Desktop*/
-@media (min-width: 1024px) {
+@media (min-width: 1224px) {
 
     /*Sección Menu*/
     .menu {

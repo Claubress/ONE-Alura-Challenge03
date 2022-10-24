@@ -16,5 +16,4 @@ export async function handleSubmit(event) {
     } else {
         alert('Hubo algún problema, intentelo más tarde');
     }
-
 } 

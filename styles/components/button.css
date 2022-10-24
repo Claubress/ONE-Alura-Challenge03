@@ -1,0 +1,19 @@
+
+.component__button {
+    border: 1px solid var(--col-btn);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1rem;
+    padding: 0.75rem 1rem;
+
+}
+
+.component__button--fill {
+    background-color: var(--col-btn);
+    color: white;
+}
+
+.component__button--clear {
+    color: var(--col-btn);
+}

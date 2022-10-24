@@ -20,6 +20,7 @@
 
 .menu__list__item__contato {
     font-size: 0.875rem;
+    line-height: 1.0275rem;
     font-weight: 400;
 }
 
@@ -27,11 +28,12 @@
 
     .menu__list__item__contato {
         font-size: 1rem;
+        line-height: 1.1875rem;
         font-weight: 700;
     }            
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1224px) {
 
     .menu__list__item__contato {
         display: none;

@@ -1,10 +1,6 @@
-export function validated(input) {
+export function handleValid(input) {
     const typeInput = input.dataset.type;
 
-    // if (validadores[typeInput]) {
-    //   validadores[typeInput](input);
-    // }
-  
     if (input.validity.valid) {
       input.parentElement.classList.remove("formcontato__input__container--invalid");
       input.parentElement.querySelector(".formcontato__message__error").innerHTML = "";
@@ -15,12 +11,14 @@ export function validated(input) {
     }
 }
 
+
 const typeErrors = [
     "valueMissing",
     "typeMismatch",
     "patternMismatch",
     "customError",
 ];
+
 
 const errorMessage = {
     name: {
@@ -41,6 +39,7 @@ const errorMessage = {
     }
 };
 
+
 function showErrorMessage(typeInput, input) {
     let menssage = "";
     typeErrors.forEach((error) => {
@@ -49,5 +48,4 @@ function showErrorMessage(typeInput, input) {
       }
     });
     return menssage;
-  }
-  
+}

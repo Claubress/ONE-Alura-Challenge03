@@ -1,10 +1,10 @@
 .component__subtitle {
     font-size: 0.875rem;
     font-weight: 500;
-    line-height: 1rem;
+    line-height: 1.0275rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1224px) {
     .component__subtitle {
         font-size: 1rem;
         line-height: 1.1738rem;

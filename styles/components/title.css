@@ -4,7 +4,11 @@
     line-height: 1.625rem;
 }
 
-@media (min-width: 1440px) {
+.component__title--center {
+    text-align: center;
+}
+
+@media (min-width: 1224px) {
     .component__title {
         font-size: 2rem;
         line-height: 2.375rem;

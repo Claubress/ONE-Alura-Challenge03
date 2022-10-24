@@ -7,17 +7,11 @@ formcontato__contacto {
     display: none;
 }
 
-.formcontato__title {
-    padding-bottom: 0.5rem;
-}
-
 .formcontato__subtext {
+    padding-top: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.1875rem;
-}
-
-.formcontato__form {
 }
 
 .formcontato__input {
@@ -38,6 +32,7 @@ formcontato__contacto {
     color: var(--col-text);
     height: 8.3125rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1.75rem 0 0 0.75rem;
     resize: none;
     width: 100%;
@@ -46,7 +41,6 @@ formcontato__contacto {
 .formcontato__input:focus, .formcontato__textarea:focus {
     outline: none;
 }
-
 
 /* Efecto input */
 .formcontato__input__container {
@@ -87,34 +81,17 @@ formcontato__contacto {
 }
 /* Fin efecto input */
 
-
-.formcontato__botao {
-    background-color: var(--col-btn);
-    border: 1px solid var(--col-btn);
-    color: white;
-    cursor: pointer;
-    font-size: 0.875rem;
-    font-weight: 600;
-    line-height: 1rem;
-    margin-top: 2rem;
-    padding: 0.75rem 1rem;
-}
-
   
 .formcontato__input__container--invalid {
     margin-bottom: 0.5rem;
 }
 
-/************************************************/
-
 .formcontato__input__container--invalid .formcontato__input {
     border: 1px solid var(--col-warning);
-    /* border-radius: 7px; */
 }
 
 .formcontato__input__container--invalid .formcontato__textarea {
     border: 1px solid var(--col-warning);
-    /* border-radius: 7px; */
 }
 
 .formcontato__input__container--invalid .formcontato__label {
@@ -132,8 +109,7 @@ formcontato__contacto {
     padding-left: 0.5rem;
 }
   
-   
-  
+     
 @media (min-width: 1224px) {
     .formcontato__contacto {
         display: flex;
